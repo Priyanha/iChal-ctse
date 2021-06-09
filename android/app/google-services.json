@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "721887703392",
+    "project_id": "ctse-5da57",
+    "storage_bucket": "ctse-5da57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721887703392:android:284a939149aaafda122e05",
+        "android_client_info": {
+          "package_name": "com.example.ctse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721887703392-uqfqd6t6efqfdunoftlci74f8a62n5e4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS9-WqaDKh5VYpPFRmmal9cfBuHG_9LHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721887703392-uqfqd6t6efqfdunoftlci74f8a62n5e4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
