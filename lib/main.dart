@@ -6,8 +6,6 @@ import 'package:flutter/material.dart';
 import 'HomePage.dart';
 import 'package:firebase_core/firebase_core.dart';
 
-
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -24,14 +22,14 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       home:
-      HomePage(),
-      //   AnimatedSplashScreen(
-      //   splash: Image.asset('images/logo.jpg'),
-      //   splashIconSize: 120.0,
-      //   nextScreen:  HomePage(),
-      //   splashTransition: SplashTransition.scaleTransition,
-      //   duration: 3000,
-      // ),
+      // HomePage(),
+        AnimatedSplashScreen(
+        splash: Image.asset('images/logo.png'),
+        splashIconSize: 200.0,
+        nextScreen:  HomePage(),
+        splashTransition: SplashTransition.scaleTransition,
+        duration: 3000,
+      ),
 
 
       routes: <String,WidgetBuilder>{
@@ -39,6 +37,7 @@ class MyApp extends StatelessWidget {
         "Login" : (BuildContext context)=>Login(),
         "SignUp":(BuildContext context)=>SignUp(),
         "start":(BuildContext context)=>Start(),
+        "home":(BuildContext context)=>HomePage(),
       },
       
     );

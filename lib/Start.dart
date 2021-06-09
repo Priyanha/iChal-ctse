@@ -71,7 +71,7 @@ class _StartState extends State<Start> {
                           color: Colors.black),
                       children: <TextSpan>[
                     TextSpan(
-                        text: 'iChaL',
+                        text: 'iChAL',
                         style: TextStyle(
                             fontSize: 30.0,
                             fontWeight: FontWeight.bold,
