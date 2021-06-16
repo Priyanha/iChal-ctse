@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:ctse/Profile/userprofile.dart';
+import 'package:ctse/screens/showAddProblem.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -59,6 +60,18 @@ class DrawerScreen extends StatelessWidget {
                               builder: (
                                   BuildContext context) => new UserProfile()));
                     }),
+                new ListTile(
+                    title: new Text("Challenges"),
+                    leading: Icon(Icons.logout, color: Colors.lightBlue),
+                    onTap: () {
+                      Navigator.of(context).pop();
+                      Navigator.push(
+                          context,
+                          new MaterialPageRoute(
+                              builder: (
+                                  BuildContext context) => new ShowAddProblem()));
+                    }
+                ),
                 new ListTile(
                     title: new Text("SignOut"),
                     leading: Icon(Icons.logout, color: Colors.lightBlue),

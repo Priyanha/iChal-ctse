@@ -76,7 +76,7 @@ class _HomePageState extends State<HomePage> {
                   padding: const EdgeInsets.only(left: 40.0, right: 15.0, top: 15.0, bottom: 15.0),
                   child: Container(
                     child: Text(
-                      "Hello ${user.displayName} you are Logged in as ${user.email}",
+                      "Hello you are Logged in as ${user.email}",
                       style:
                           TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
                     ),
